@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -98,4 +103,58 @@ h1 {
   font-style: italic;
   letter-spacing: 1.5px;
   font-size: 1.2rem;
+  margin: 1.5rem auto;
+}
+.divider {
+  width: 90%;
+  height: 1.5px;
+  background-color: #212529;
+  border: 1px solid #212529;
+  margin: 0 auto;
+}
+#tribute-info {
+  width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+  height: 300px;
+}
+#tribute-info section h2 {
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.bio h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.divider-light {
+  height: 1px;
+  width: 100%;
+  background-color: #212529;
+}
+.bio {
+  margin: 0 10px;
+  padding: 10px;
+}
+.description {
+  width: 80%;
+  text-align: start;
+  display: block;
+  margin: 5px auto;
+}
+#efforts h2 {
+  word-spacing: 0.2px;
+}
+.description p {
+  word-spacing: 2px;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+.death {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
